@@ -1,0 +1,14 @@
+The proplib library provides an abstract interface for creating and
+manipulating property lists.  Property lists have object types for
+boolean values, opaque data, numbers, and strings.  Structure is provided
+by the array and dictionary collection types.
+
+Property lists can be passed across protection boundaries by translating
+them to an external representation.  This external representation is an
+XML document whose format is described by the following DTD:
+
+  http://www.apple.com/DTDs/PropertyList-1.0.dtd
+
+This proplib version based on the same version than is available on NetBSD,
+with the exception that it has been converted to be built through the
+GNU autotools and has support for zlib.
