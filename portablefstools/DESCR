@@ -1,0 +1,4 @@
+The fsx tool is a filesystem exerciser that can be used to test both local and
+network filesystems.  For the tool's history, read:
+* http://codemonkey.org.uk/projects/fsx/
+* http://mail-index.netbsd.org/tech-kern/2001/12/13/0009.html
